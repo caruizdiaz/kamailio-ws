@@ -11,6 +11,7 @@ I will write a blog entry explaining how this works, but in a nutshell:
 - I used jssip as webrtc SIP UA: http://tryit.jssip.net/
 - Always disable video before placing a call from jssip UA
 - Always use Chrome. Firefox won't work, and I'm not sure about other browsers
+- Remember to also change the record_route_present() value
 - I tested calls between:
 	- jssip to csipsimple
 	- csipsimple to jssip
