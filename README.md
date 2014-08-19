@@ -9,7 +9,7 @@ I will write a blog entry explaining how this works, but in a nutshell:
 - you have to create valid users using, preferably, "kamctl add ..."
 - RTP ports should be open in range 30k-35k, inclusive
 - I used jssip as webrtc SIP UA: http://tryit.jssip.net/
-- Always disable video before placing a call from jssip UA
+- Always disable video before placing a call from jssip UA (sometimes, it works)
 - Tested with Chrome, FF, and Opera
 - Remember to also change the record_route_preset() value
 - I tested calls between:
